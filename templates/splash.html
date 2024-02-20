@@ -6,4 +6,10 @@
 <body>
 <h1>Welcome to my Django site, {{ name }}!</h1>
 </body>
+
+<ul>
+{% for i in lst %}
+    <li>{{ i.name }}</li>
+{% endfor %}
+</ul>
 </html>
